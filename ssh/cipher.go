@@ -16,7 +16,8 @@ import (
 	"hash"
 	"io"
 	"io/ioutil"
-	"math/bits"
+//	"math/bits"
+    "golang.org/x/crypto/patch_for_1.6/bits"
 
 	"golang.org/x/crypto/internal/chacha20"
 	"golang.org/x/crypto/poly1305"
